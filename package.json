@@ -1,19 +1,19 @@
 {
   "name": "laboratorio-13",
   "version": "1.0.0",
-  "description": "laboratorio (13)",
+  "description": "laboratorio (Lab)",
   "author": "Maikon",
   "private": true,
   "main": "electron/main.cjs",
-  "portaDoPrograma": 7933,
+  "portaDoPrograma": 7858,
   "devDependencies": {
     "electron": "33.2.1",
     "electron-builder": "25.1.8"
   },
   "build": {
-    "appId": "com.maikonadvogadomgalt.laboratorio13.pc",
-    "productName": "laboratorio (13)",
-    "executableName": "laboratorio-13",
+    "appId": "com.maikonadvogadomgalt.laboratorio13.nlab.pc",
+    "productName": "laboratorio (Lab)",
+    "executableName": "laboratorio-lab",
     "directories": {
       "output": "release"
     },
@@ -41,11 +41,11 @@
       "perMachine": false,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "laboratorio (13)",
-      "artifactName": "laboratorio-13-Instalar.exe"
+      "shortcutName": "laboratorio (Lab)",
+      "artifactName": "laboratorio-lab-Instalar.exe"
     },
     "portable": {
-      "artifactName": "laboratorio-13-sem-instalar.exe"
+      "artifactName": "laboratorio-lab-sem-instalar.exe"
     }
   }
 }
